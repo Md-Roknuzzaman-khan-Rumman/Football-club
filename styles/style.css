@@ -106,6 +106,20 @@ body {
   background-color: var(--button_color);
   text-align: center;
   line-height: 44px;
+  transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  -webkit-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  -moz-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  -ms-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  -o-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+}
+
+nav ul li:hover,.button:hover, .player_infos:hover {
+  transform: scale(110%);
+  -webkit-transform: scale(110%);
+  -moz-transform: scale(110%);
+  -ms-transform: scale(110%);
+  -o-transform: scale(110%);
+  box-shadow: 0px 0px 40px -10px black ;
 }
 
 .normal-text {
@@ -171,11 +185,6 @@ header:hover .header_image_bg {
   -o-transform: rotateX(30deg);
 }
 
-header:hover .header_image_ball {
-  animation: header_animation_ball 5s ease-in-out;
-  -webkit-animation: header_animation_ball 5s ease-in-out;
-}
-
 /* >>>>>>>> Heading Images <<<<<<<< */
 
 .heading_img img {
@@ -210,6 +219,12 @@ header:hover .header_image_ball {
   -webkit-animation: ball_rotate 5s infinite linear;
 }
 
+header:hover .header_image_ball {
+  animation: header_animation_ball 5s ease-in-out;
+  -webkit-animation: header_animation_ball 5s ease-in-out;
+}
+
+
 /* ==================================================
 ===========// Header Section CSS : End //============
 ===================================================== */
@@ -230,6 +245,14 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+nav ul li {
+  transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  -webkit-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  -moz-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  -ms-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  -o-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
 }
 
 nav a {
@@ -277,10 +300,26 @@ main {
   padding: 15px 15px 33px 15px;
   margin: 0 auto;
   box-shadow: 0px 0px 50px -25px #000;
+  transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  -webkit-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  -moz-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  -ms-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  -o-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 .player_infos img {
   width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-top-left-radius: 15px;
+  -ms-border-top-left-radius: 15px;
+  -o-border-top-left-radius: 15px;
 }
 
 .player_infos h1 {
