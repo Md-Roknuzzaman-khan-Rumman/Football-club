@@ -106,20 +106,22 @@ body {
   background-color: var(--button_color);
   text-align: center;
   line-height: 44px;
-  transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
-  -webkit-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
-  -moz-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
-  -ms-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
-  -o-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -webkit-transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -moz-transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -ms-transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -o-transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-nav ul li:hover,.button:hover, .player_infos:hover {
+nav ul li:hover,
+.button:hover,
+.player_infos:hover {
   transform: scale(110%);
   -webkit-transform: scale(110%);
   -moz-transform: scale(110%);
   -ms-transform: scale(110%);
   -o-transform: scale(110%);
-  box-shadow: 0px 0px 40px -10px black ;
+  box-shadow: 0px 0px 40px -10px black;
 }
 
 .normal-text {
@@ -224,7 +226,6 @@ header:hover .header_image_ball {
   -webkit-animation: header_animation_ball 5s ease-in-out;
 }
 
-
 /* ==================================================
 ===========// Header Section CSS : End //============
 ===================================================== */
@@ -248,11 +249,11 @@ nav ul {
 }
 
 nav ul li {
-  transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
-  -webkit-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
-  -moz-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
-  -ms-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
-  -o-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -webkit-transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -moz-transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -ms-transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -o-transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 nav a {
@@ -280,6 +281,7 @@ nav a i {
 main {
   margin: 70px 0 158px 0;
 }
+
 /* ==================================================
 ---------// Player Card Section CSS : Start //-------
 ===================================================== */
@@ -300,11 +302,11 @@ main {
   padding: 15px 15px 33px 15px;
   margin: 0 auto;
   box-shadow: 0px 0px 50px -25px #000;
-  transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
-  -webkit-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
-  -moz-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
-  -ms-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
-  -o-transition: transform .2s ease-in-out ,box-shadow .2s ease-in-out;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -webkit-transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -moz-transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -ms-transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -o-transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -416,7 +418,6 @@ main {
 }
 
 /* >>>>>>>> Upcoming Match Box Design <<<<<<<< */
-
 
 #upcoming_matches .time {
   text-align: center;
